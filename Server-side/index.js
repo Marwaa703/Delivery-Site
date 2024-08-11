@@ -37,7 +37,12 @@ const loadData = () => {
 };
 
 // Middleware
-app.use(cors());
+// app.use(cors());
+app.use(
+  cors({
+    origin: "https://react-pro-front.vercel.app/",
+  })
+);
 app.use(express.json());
 app.use(express.static("public"));
 const ownersFilePath = path.join(__dirname, "owners.json");
@@ -799,7 +804,6 @@ app.get("/api/orders/user/:userId/status/:status", async (req, res) => {
     res.status(500).json({ message: "Failed to fetch orders" });
   }
 });
-
 
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
