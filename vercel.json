@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "Server-side/index.js",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "deleivery/package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/Server-side/index.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/deleivery/$1"
+    }
+  ]
+}
