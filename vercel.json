@@ -6,8 +6,11 @@
       "use": "@vercel/node"
     },
     {
-      "src": "deleivery/package.json",
-      "use": "@vercel/static-build"
+      "src": "deleivery/vite.config.js",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "deleivery/dist"
+      }
     }
   ],
   "routes": [
@@ -17,7 +20,7 @@
     },
     {
       "src": "/(.*)",
-      "dest": "/deleivery/index.html"
+      "dest": "/deleivery/dist/$1"
     }
   ]
 }
