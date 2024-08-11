@@ -1,34 +1,32 @@
-{
-  "users": [
-    {
-      "id": 14454892951070366000,
-      "username": "admin2",
-      "email": "admin2@gmail.com",
-      "password": "$2a$10$2EfMLlPz73iUTfHJXKPLlOYp.w46N5NMjkEmKYA.C1gIrRDYZXGEi",
-      "address": "",
-      "phoneNumber": "122321",
-      "gender": "",
-      "role": "admin"
-    },
-    {
-      "id": 2692455036930030000,
-      "username": "Samir Ahmed",
-      "email": "samir@gmail.com",
-      "password": "$2a$10$.Z8nJfO04sXOz6VmkfrQYeg9ubSbLJk7Ie.P9OQST5HYvdo7KeFau",
-      "address": "123 Elm Street, Giza, IL, 62704",
-      "phoneNumber": "011-555-1234",
-      "gender": "male",
-      "role": "customer"
-    },
-    {
-      "id": 7755191806806218000,
-      "username": "customer",
-      "email": "customer@gmail.com",
-      "password": "$2a$10$izG10vBaCIO0N2De/uVKl.pVi.7NmOaKGB0MLIJECGs.Nas03pZSG",
-      "address": "cairo",
-      "phoneNumber": "12345678",
-      "gender": "female",
-      "role": "customer"
-    }
-  ]
-}
+[
+  {
+    "id": 14454892951070366000,
+    "username": "admin2",
+    "email": "admin2@gmail.com",
+    "password": "$2a$10$2EfMLlPz73iUTfHJXKPLlOYp.w46N5NMjkEmKYA.C1gIrRDYZXGEi",
+    "address": "",
+    "phoneNumber": "122321",
+    "gender": "",
+    "role": "admin"
+  },
+  {
+    "id": 2692455036930030000,
+    "username": "Samir Ahmed",
+    "email": "samir@gmail.com",
+    "password": "$2a$10$.Z8nJfO04sXOz6VmkfrQYeg9ubSbLJk7Ie.P9OQST5HYvdo7KeFau",
+    "address": "123 Elm Street, Giza, IL, 62704",
+    "phoneNumber": "011-555-1234",
+    "gender": "male",
+    "role": "customer"
+  },
+  {
+    "id": 7755191806806218000,
+    "username": "customer2",
+    "email": "customer@gmail.com",
+    "password": "$2a$10$izG10vBaCIO0N2De/uVKl.pVi.7NmOaKGB0MLIJECGs.Nas03pZSG",
+    "address": "cairo",
+    "phoneNumber": "12345678",
+    "gender": "female",
+    "role": "customer"
+  }
+]
