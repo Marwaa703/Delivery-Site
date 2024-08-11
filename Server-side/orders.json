@@ -151,5 +151,32 @@
     "userId": "7755191806806218000",
     "status": "preparing order",
     "orderTime": "2024-08-11T16:57:43.755Z"
+  },
+  {
+    "id": 40,
+    "items": [
+      {
+        "id": 12,
+        "name": "Latte",
+        "price": "$4.00",
+        "rating": 4,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVLYmYLecpW1XE8GRq6NhpXCtvueiTgdYrIw&s",
+        "restaurantId": 1,
+        "quantity": 3
+      },
+      {
+        "id": 11,
+        "name": "Cappuccino",
+        "price": "$3.50",
+        "rating": 4.2,
+        "image": "https://choicemarket.co/cdn/shop/files/Cappuccino.jpg?v=1698521269",
+        "restaurantId": 1,
+        "quantity": 2
+      }
+    ],
+    "total": "19.00",
+    "userId": "7755191806806218000",
+    "status": "preparing order",
+    "orderTime": "2024-08-11T17:02:14.972Z"
   }
 ]
