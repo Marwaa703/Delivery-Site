@@ -799,6 +799,9 @@ app.get("/api/orders/user/:userId/status/:status", async (req, res) => {
     res.status(500).json({ message: "Failed to fetch orders" });
   }
 });
+app.get("*", (req, res) => {
+  res.send("This is a catch-all route.");
+});
 
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);

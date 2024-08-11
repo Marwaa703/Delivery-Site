@@ -133,59 +133,5 @@
     "userId": "7755191806806218000",
     "status": "preparing order",
     "orderTime": "2024-08-11T16:30:50.057Z"
-  },
-  {
-    "id": 39,
-    "items": [
-      {
-        "id": 61,
-        "name": "Mocha",
-        "price": "$4.50",
-        "rating": 4.7,
-        "image": "https://gatherforbread.com/wp-content/uploads/2014/10/Dark-Chocolate-Mocha-Square.jpg",
-        "restaurantId": 6,
-        "quantity": 4
-      }
-    ],
-    "total": "18.00",
-    "userId": "7881058158949620000",
-    "status": "preparing order",
-    "orderTime": "2024-08-11T16:33:49.711Z"
-  },
-  {
-    "id": 40,
-    "items": [
-      {
-        "id": 51,
-        "name": "Cheeseburger",
-        "price": "$10.00",
-        "rating": 4.3,
-        "image": "https://www.sargento.com/assets/Uploads/Recipe/Image/burger_0__FillWzExNzAsNTgzXQ.jpg",
-        "restaurantId": 5,
-        "quantity": 3
-      }
-    ],
-    "total": "30.00",
-    "userId": "7755191806806218000",
-    "status": "preparing order",
-    "orderTime": "2024-08-11T16:39:19.563Z"
-  },
-  {
-    "id": 41,
-    "items": [
-      {
-        "id": 151,
-        "name": "Classic Burger",
-        "price": "$9.50",
-        "rating": 3.9,
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeCacsKFVUFTWs2O_nNZ-liKRkUT8eU8zBHQ&s",
-        "restaurantId": 15,
-        "quantity": 4
-      }
-    ],
-    "total": "38.00",
-    "userId": "7755191806806218000",
-    "status": "preparing order",
-    "orderTime": "2024-08-11T16:42:40.457Z"
   }
 ]
