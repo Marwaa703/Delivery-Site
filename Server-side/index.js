@@ -7,10 +7,6 @@ const fs = require("fs");
 const { v4: uuidv4 } = require("uuid");
 const path = require("path");
 const crypto = require("crypto");
-// const session = require("express-session");
-
-// const restaurants = require("./restaurants");
-
 const app = express();
 const port = 3000;
 const SECRET_KEY =
@@ -115,7 +111,9 @@ const authenticateToken = (req, res, next) => {
   });
 };
 
-
+app.get("/", (req, res) => {
+  res.send("Hello, World!");
+});
 
 // Route to fetch user info
 app.get("/user-info", authenticateToken, (req, res) => {
