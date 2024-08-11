@@ -178,5 +178,32 @@
     "userId": "7755191806806218000",
     "status": "preparing order",
     "orderTime": "2024-08-11T17:02:14.972Z"
+  },
+  {
+    "id": 41,
+    "items": [
+      {
+        "id": 111,
+        "name": "Smoothie",
+        "price": "$5.00",
+        "rating": 4.8,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjHArZFmC9vryb8PDEzB_M-FjvU8kiPdsG7A&s",
+        "restaurantId": 11,
+        "quantity": 3
+      },
+      {
+        "id": 112,
+        "name": "Milkshake",
+        "price": "$4.50",
+        "rating": 4.7,
+        "image": "https://bakingmischief.com/wp-content/uploads/2022/03/coffee-milkshake-square.jpg",
+        "restaurantId": 11,
+        "quantity": 4
+      }
+    ],
+    "total": "33.00",
+    "userId": null,
+    "status": "preparing order",
+    "orderTime": "2024-08-11T17:05:53.160Z"
   }
 ]
