@@ -79,5 +79,23 @@
     "userId": "14454892951070366000",
     "status": "delivered",
     "orderTime": "2024-08-04T12:05:18.745Z"
+  },
+  {
+    "id": 36,
+    "items": [
+      {
+        "id": 111,
+        "name": "Smoothie",
+        "price": "$5.00",
+        "rating": 4.8,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjHArZFmC9vryb8PDEzB_M-FjvU8kiPdsG7A&s",
+        "restaurantId": 11,
+        "quantity": 4
+      }
+    ],
+    "total": "20.00",
+    "userId": "7881058158949620000",
+    "status": "preparing order",
+    "orderTime": "2024-08-11T16:18:39.048Z"
   }
 ]

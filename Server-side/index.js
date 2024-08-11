@@ -115,10 +115,7 @@ const authenticateToken = (req, res, next) => {
   });
 };
 
-//Fallback Route
-app.get("*", (req, res) => {
-  res.status(404).send("404 - Not Found");
-});
+
 
 // Route to fetch user info
 app.get("/user-info", authenticateToken, (req, res) => {
