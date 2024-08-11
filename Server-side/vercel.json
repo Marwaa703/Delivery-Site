@@ -2,25 +2,11 @@
   "version": 2,
   "builds": [
     {
-      "src": "Server-side/index.js",
+      "src": "index.js", 
       "use": "@vercel/node"
-    },
-    {
-      "src": "deleivery/vite.config.js",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "deleivery/dist"
-      }
     }
   ],
   "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/Server-side/index.js"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/deleivery/dist/$1"
-    }
+    { "src": "/(.*)", "dest": "index.js" } 
   ]
 }
