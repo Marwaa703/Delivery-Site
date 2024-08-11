@@ -112,7 +112,7 @@ const authenticateToken = (req, res, next) => {
 };
 
 app.get("/", (req, res) => {
-  res.send("Hello, World!");
+  res.send("Server Running......");
 });
 
 // Route to fetch user info

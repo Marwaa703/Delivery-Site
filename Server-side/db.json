@@ -19,6 +19,16 @@
       "phoneNumber": "011-555-1234",
       "gender": "male",
       "role": "customer"
+    },
+    {
+      "id": 7755191806806218000,
+      "username": "customer",
+      "email": "customer@gmail.com",
+      "password": "$2a$10$izG10vBaCIO0N2De/uVKl.pVi.7NmOaKGB0MLIJECGs.Nas03pZSG",
+      "address": "cairo",
+      "phoneNumber": "12345678",
+      "gender": "female",
+      "role": "customer"
     }
   ]
 }
