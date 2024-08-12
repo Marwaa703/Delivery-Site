@@ -37,12 +37,7 @@ const loadData = () => {
 };
 
 // Middleware
-// app.use(cors());
-app.use(
-  cors({
-    origin: "https://react-pro-front.vercel.app/",
-  })
-);
+app.use(cors());
 app.use(express.json());
 app.use(express.static("public"));
 const ownersFilePath = path.join(__dirname, "owners.json");
